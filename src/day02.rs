@@ -1,7 +1,6 @@
 use {
     std::ops::RangeInclusive,
-    lazy_static::lazy_static,
-    regex::Regex,
+    crate::prelude::*,
 };
 
 lazy_static! {

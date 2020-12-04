@@ -1,6 +1,6 @@
 use {
     std::num::ParseIntError,
-    itertools::Itertools as _,
+    crate::prelude::*,
 };
 
 #[aoc_generator(day1)]
