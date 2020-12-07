@@ -1,9 +1,6 @@
 use {
-    std::{
-        collections::HashSet,
-        convert::identity,
-    },
     hashbag::HashBag,
+    crate::prelude::*,
 };
 
 #[aoc_generator(day6)]

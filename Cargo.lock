@@ -44,11 +44,18 @@ version = "0.1.0"
 dependencies = [
  "aoc-runner",
  "aoc-runner-derive",
+ "collect-mac",
  "hashbag",
  "itertools",
  "lazy_static",
  "regex",
 ]
+
+[[package]]
+name = "collect-mac"
+version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f168712e49987bd2f51cb855c4585999e12b1a0abdff60fea4b81b41f2010264"
 
 [[package]]
 name = "either"

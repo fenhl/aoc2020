@@ -74,11 +74,11 @@ fn gen(input: &str) -> Vec<Passport> {
 }
 
 #[aoc(day4, part1)]
-fn part1(map: &[Passport]) -> usize {
-    map.iter().filter(|passport| passport.valid1()).count()
+fn part1(input: &[Passport]) -> usize {
+    input.iter().filter(|passport| passport.valid1()).count()
 }
 
 #[aoc(day4, part2)]
-fn part2(map: &[Passport]) -> usize {
-    map.iter().filter(|passport| passport.valid2()).count()
+fn part2(input: &[Passport]) -> usize {
+    input.iter().filter(|passport| passport.valid2()).count()
 }
