@@ -1,7 +1,4 @@
-use {
-    std::str::FromStr,
-    crate::prelude::*,
-};
+use crate::prelude::*;
 
 lazy_static! {
     static ref HCL_REGEX: Regex = Regex::new("^#[0-9a-f]{6}$").unwrap();
