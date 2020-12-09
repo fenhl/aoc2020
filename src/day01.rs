@@ -1,7 +1,4 @@
-use {
-    std::num::ParseIntError,
-    crate::prelude::*,
-};
+use crate::prelude::*;
 
 #[aoc_generator(day1)]
 fn gen(input: &str) -> Result<Vec<u32>, ParseIntError> {

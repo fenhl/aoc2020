@@ -2,6 +2,7 @@ pub(crate) use {
     std::{
         collections::HashSet,
         convert::identity,
+        num::ParseIntError,
         str::FromStr,
     },
     itertools::Itertools as _,
