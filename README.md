@@ -1,5 +1,1 @@
-These are my solutions to 2020's [Advent of Code](https://adventofcode.com/) puzzles.
-
-To run, use [`cargo aoc`](https://crates.io/crates/cargo-aoc).
-
-I'm mostly going for speed this year (as in writing the code quickly, not as in high-performance code).
+My solutions to some of 2020's Advent of Code puzzles. This repository is archived in favor of [fenhl/aoc](https://github.com/fenhl/aoc) which includes solutions to more puzzles from 2020 as well as those from other years.
